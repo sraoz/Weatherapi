@@ -3,16 +3,17 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 0;
+  margin: 3px;
   font-family: 'Open Sans', sans-serif;
   background: #222;
-  background-image: url('https://source.unsplash.com/1600x900/?landscape');
+  background-image: url("/images/back.jpg");
   font-size: 120%;
 }
 
 .card {
   background: #000000d0;
-  color: white;
+  box-shadow: 3px 3px 3px red;
+  color: rgb(245, 10, 10);
   padding: 2em;
   border-radius: 30px;
   width: 100%;
@@ -21,6 +22,8 @@ body {
 }
 
 .search {
+  box-shadow: 3px 3px 3px red;
+  text-shadow: 2px 2px 2px  red;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,6 +31,7 @@ body {
 
 button {
   margin: 0.5em;
+  box-shadow: 3px 3px 3px red;
   border-radius: 50%;
   border: none;
   height: 44px;
@@ -40,6 +44,7 @@ button {
 }
 
 input.search-bar {
+  box-shadow: 3px 3px 3px red;
   border: none;
   outline: none;
   padding: 0.4em 1em;
@@ -52,7 +57,7 @@ input.search-bar {
 }
 
 button:hover {
-  background: #7c7c7c6b;
+  background: blue;
 }
 
 h1.temp {
@@ -83,4 +88,46 @@ h1.temp {
   position: absolute;
   top: 0;
   left: 20px;
+}
+.foot
+ { margin: 50px;
+  padding:10px;
+  width: auto;
+  border: 15px solid black;
+  position: fixed;
+  right: -50px;
+  top: 30px;
+  box-shadow: 5px 5px 5px red;
+  text-shadow: 3px 3px 3px red;
+}
+.hea{
+  margin: 50px;
+  padding:10px;
+  width: auto;
+  position: fixed;
+  left: 250px;
+  top: -30px;
+  border: 15px solid black;
+  box-shadow: 5px 5px 5px red;
+  text-shadow: 3px 3px 3px red;
+
+}
+.somextra{
+  float: left;
+  text:bold;
+  height: auto;
+  width: auto;
+  position: fixed;
+  left: -10px;
+  bottom: -10px;
+  margin: 20px;
+  padding:30px;
+  border: 15px solid black;
+  box-shadow: 5px 5px 5px red;
+  text-shadow: 3px 3px 3px red;
+
+}
+.slideshow-container{
+  border: 5px solid black;
+  box-shadow: 3px 3px 3px red;
 }

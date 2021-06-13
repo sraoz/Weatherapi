@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
+ 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weather App</title>
+  <title>Weather Updates</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
@@ -12,7 +12,66 @@
 </head>
 
 <body>
-  <div class="card">
+  <header>
+    <p class="hea">GET THE WEATHER DETAILS HERE....</p>
+  </header>
+
+ 
+<div class="slideshow-container">
+
+  
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/1.jpg" style="width:500px">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/2.jpg" style="width:500px">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/3.jpg" style="width:500px">
+    <div class="text"></div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/4.jpg" style="width:500px">
+    <div class="text"></div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/5.jpg" style="width:500px">
+    <div class="text"></div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/6.jpg" style="width:500px">
+    <div class="text"></div>
+  </div>
+  
+</div>
+<br>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+</div>
+         
+
+
+
+
+
+<div class="card">
     <div class="search">
       <input type="text" class="search-bar" placeholder="Search">
       <button><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1.5em"
@@ -23,7 +82,8 @@
         </svg></button>
     </div>
     <div class="weather loading">
-      <h2 class="city">Weather in Denver</h2>
+      <h2 class="city">Weather in Delhi</h2>
+      <div style="color: red;" id="date"></div>
       <h1 class="temp">51°C</h1>
       <div class="flex">
         <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
@@ -33,6 +93,11 @@
       <div class="wind">Wind speed: 6.2 km/h</div>
     </div>
   </div>
+  <footer>
+   <p class="foot"> DESIGN AND DEVELOPED BY SRAOZ</p>
+  </footer>
+
+  <p class="somextra"> Sunshine is delicious,Rain is refreshing, Wind braces us up, Snow is exhilarating; there is really no such thing as bad weather,only different kinds of good weather  </p>
 </body>
 
 </html>
