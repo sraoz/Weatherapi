@@ -1,0 +1,25 @@
+{
+  "name": "weather-app-tutorial",
+  "version": "1.0.0",
+  "description": "<p align=\"left\">\r   <a href=\"https://discord.gg/fPrdqh3Zfu\" alt=\"Dev Pro Tips Discussion & Support Server\">\r     <img src=\"https://img.shields.io/discord/819650821314052106?color=7289DA&logo=discord&logoColor=white&style=for-the-badge\"/></a>\r </p>",
+  "main": "script.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sraoz/weather_app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sraoz/weather_app/issues"
+  },
+  "homepage": "https://github.com/sraoz/weather_app#readme"
+}
